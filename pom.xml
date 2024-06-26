@@ -13,7 +13,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <exec.mainClass>id.ac.dinus.a112214433.App</exec.mainClass>
+    <exec.mainClass>id.ac.dinus.a112214433.FrmMenu</exec.mainClass>
   </properties>
 
   <dependencies>
