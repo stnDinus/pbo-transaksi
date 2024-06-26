@@ -385,7 +385,7 @@ public class FrmTransaksi extends javax.swing.JFrame {
 
   private void open_db() {
     try {
-      KoneksiMysql kon = new KoneksiMysql("localhost", "root", "", "pbo");
+      KoneksiMysql kon = new KoneksiMysql("pbo");
       Con = kon.getConnection();
     } catch (Exception e) {
       System.out.println("Error : " + e);
