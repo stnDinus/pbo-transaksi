@@ -32,7 +32,7 @@ public class FrmMenu extends javax.swing.JFrame {
         mmKonsumen = new javax.swing.JMenuItem();
         jSeparator1 = new javax.swing.JPopupMenu.Separator();
         mmKeluar = new javax.swing.JMenuItem();
-        jMenu2 = new javax.swing.JMenu();
+        mmTransaksi = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -65,8 +65,13 @@ public class FrmMenu extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu1);
 
-        jMenu2.setText("Transaksi");
-        jMenuBar1.add(jMenu2);
+        mmTransaksi.setText("Transaksi");
+        mmTransaksi.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                mmTransaksiMouseClicked(evt);
+            }
+        });
+        jMenuBar1.add(mmTransaksi);
 
         setJMenuBar(jMenuBar1);
 
@@ -95,6 +100,10 @@ public class FrmMenu extends javax.swing.JFrame {
     private void mmKeluarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mmKeluarActionPerformed
         dispose();
     }//GEN-LAST:event_mmKeluarActionPerformed
+
+    private void mmTransaksiMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_mmTransaksiMouseClicked
+            new FrmTransaksi().setVisible(true);
+    }//GEN-LAST:event_mmTransaksiMouseClicked
 
     /**
      * @param args the command line arguments
@@ -134,11 +143,11 @@ public class FrmMenu extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPopupMenu.Separator jSeparator1;
     private javax.swing.JMenuItem mmBarang;
     private javax.swing.JMenuItem mmKeluar;
     private javax.swing.JMenuItem mmKonsumen;
+    private javax.swing.JMenu mmTransaksi;
     // End of variables declaration//GEN-END:variables
 }
