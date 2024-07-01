@@ -242,9 +242,6 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtNama">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField2"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JComboBox" name="cmbKd_Brg">
       <Properties>
@@ -266,17 +263,17 @@
     </Component>
     <Component class="javax.swing.JTextField" name="txtNm_Brg">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField3"/>
+        <Property name="text" type="java.lang.String" value="Nama Barang"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtHarga">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField4"/>
+        <Property name="text" type="java.lang.String" value="Harga Barang"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtJml">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField5"/>
+        <Property name="text" type="java.lang.String" value="Jumlah"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtJmlActionPerformed"/>
@@ -284,7 +281,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="txtTotal">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField6"/>
+        <Property name="text" type="java.lang.String" value="0"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="cmdHapusItem">
@@ -324,7 +321,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="txtTot">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField7"/>
+        <Property name="text" type="java.lang.String" value="Total Barang"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="cmdTambah">
@@ -377,7 +374,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="txtId">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField8"/>
+        <Property name="text" type="java.lang.String" value="Kode Barang"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
@@ -387,7 +384,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="txtBayar">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField7"/>
+        <Property name="text" type="java.lang.String" value="0"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtBayarActionPerformed"/>
@@ -395,7 +392,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="txtKembali">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField7"/>
+        <Property name="text" type="java.lang.String" value="0"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel7">

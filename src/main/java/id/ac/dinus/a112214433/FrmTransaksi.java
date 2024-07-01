@@ -495,8 +495,6 @@ public class FrmTransaksi extends javax.swing.JFrame {
 
         jLabel4.setText("Nama Konsumen");
 
-        txtNama.setText("jTextField2");
-
         cmbKd_Brg.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         cmbKd_Brg.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -504,18 +502,18 @@ public class FrmTransaksi extends javax.swing.JFrame {
             }
         });
 
-        txtNm_Brg.setText("jTextField3");
+        txtNm_Brg.setText("Nama Barang");
 
-        txtHarga.setText("jTextField4");
+        txtHarga.setText("Harga Barang");
 
-        txtJml.setText("jTextField5");
+        txtJml.setText("Jumlah");
         txtJml.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtJmlActionPerformed(evt);
             }
         });
 
-        txtTotal.setText("jTextField6");
+        txtTotal.setText("0");
 
         cmdHapusItem.setText("Hapus Item");
         cmdHapusItem.addActionListener(new java.awt.event.ActionListener() {
@@ -547,7 +545,7 @@ public class FrmTransaksi extends javax.swing.JFrame {
 
         jLabel5.setText("Total");
 
-        txtTot.setText("jTextField7");
+        txtTot.setText("Total Barang");
 
         cmdTambah.setText("Tambah");
         cmdTambah.addActionListener(new java.awt.event.ActionListener() {
@@ -591,18 +589,18 @@ public class FrmTransaksi extends javax.swing.JFrame {
             }
         });
 
-        txtId.setText("jTextField8");
+        txtId.setText("Kode Barang");
 
         jLabel6.setText("Bayar");
 
-        txtBayar.setText("jTextField7");
+        txtBayar.setText("0");
         txtBayar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtBayarActionPerformed(evt);
             }
         });
 
-        txtKembali.setText("jTextField7");
+        txtKembali.setText("0");
 
         jLabel7.setText("Kembali");
 
